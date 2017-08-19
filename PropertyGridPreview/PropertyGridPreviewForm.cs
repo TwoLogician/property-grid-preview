@@ -18,5 +18,10 @@ namespace PropertyGridPreview
             InitializeComponent();
             propertyGrid.SelectedObject = new Info();
         }
+
+        private void PropertyGridPreviewForm_ResizeEnd(object sender, EventArgs e)
+        {
+
+        }
     }
 }

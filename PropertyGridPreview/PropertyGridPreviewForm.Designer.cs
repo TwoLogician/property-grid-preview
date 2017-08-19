@@ -47,6 +47,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.propertyGrid);
             this.Name = "PropertyGridPreviewForm";
+            this.ResizeEnd += new System.EventHandler(this.PropertyGridPreviewForm_ResizeEnd);
             this.ResumeLayout(false);
 
         }
